@@ -12,10 +12,9 @@ const di = document.getElementById("counter");
 plus.addEventListener("click", function(){
     count++;
     di.textContent = count;
-    if(count > 0){
+    if(count >= 0){
         counter.style.color = "black";
     }
-
 })
 
 //counter minus 1
